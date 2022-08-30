@@ -21,10 +21,10 @@ let bothNames = partnerA + partnerB;
 bothNames + bothNames.toLowerCase();
 console.log(bothNames);
 
-let T = (bothNames.match(/t/g) || []).length;
-let R = (bothNames.match(/t/g) || []).length;
-let U = (bothNames.match(/t/g) || []).length;
-let E = (bothNames.match(/t/g) || []).length;
+let T = (bothNames.match(/t/l) || []).length;
+let R = (bothNames.match(/t/l) || []).length;
+let U = (bothNames.match(/t/l) || []).length;
+let E = (bothNames.match(/t/l) || []).length;
 
 let trueValue = T+R+U+E;
 
@@ -35,10 +35,10 @@ console.log(E);
 
 
 
-let L = (bothNames.match(/t/g) || []).length;
-let O = (bothNames.match(/t/g) || []).length;
-let V = (bothNames.match(/t/g) || []).length;
-let I = (bothNames.match(/t/g) || []).length;
+let L = (bothNames.match(/t/l) || []).length;
+let O = (bothNames.match(/t/l) || []).length;
+let V = (bothNames.match(/t/l) || []).length;
+let I = (bothNames.match(/t/l) || []).length;
 
 let loviValue = L+O+V+I
 
